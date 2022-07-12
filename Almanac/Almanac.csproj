@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B466B90C-1BE4-4FD2-B75A-FEA53FE41CBE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Almanac</RootNamespace>
+    <AssemblyName>Almanac</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\adm_engelle.aspx" />
+    <Content Include="admin\adm_galeri.aspx" />
+    <Content Include="admin\adm_uyeonaylama.aspx" />
+    <Content Include="admin\adm_sikayet.aspx" />
+    <Content Include="admin\adm_siniflar.aspx" />
+    <Content Include="admin\adm_yazikontrol.aspx" />
+    <Content Include="anasayfa.aspx" />
+    <Content Include="Arama.aspx" />
+    <Content Include="cikis.aspx" />
+    <Content Include="images\bg-controls.png" />
+    <Content Include="images\bg-shadow.png" />
+    <Content Include="images\bg-wrapper.png" />
+    <Content Include="images\icerik.png" />
+    <Content Include="images\sprite.png" />
+    <Content Include="ogrencikontrol.aspx" />
+    <Content Include="sikayet.aspx" />
+    <Content Include="sikayeticerik.aspx" />
+    <Content Include="islemler.aspx" />
+    <Content Include="ortaklik.html" />
+    <Content Include="images\b7.jpg" />
+    <Content Include="images\b7sd.jpg" />
+    <Content Include="images\erdal.jpg" />
+    <Content Include="images\kytarka.png" />
+    <Content Include="images\sinif2.jpg" />
+    <Content Include="images\sinif3.jpg" />
+    <Content Include="images\sinif4.jpg" />
+    <Content Include="OzelMesaj.aspx" />
+    <Content Include="rehber.html" />
+    <Content Include="scripts\jquery-1.7.2.min.js" />
+    <Content Include="scripts\jquery-1.9.1.min.js" />
+    <Content Include="scripts\jquery.main.js" />
+    <Content Include="scripts\jquery.min.1.7.2.js" />
+    <Content Include="scripts\kutu.js" />
+    <Content Include="snfogr.aspx" />
+    <Content Include="fancybox\blank.gif" />
+    <Content Include="fancybox\fancybox-x.png" />
+    <Content Include="fancybox\fancybox-y.png" />
+    <Content Include="fancybox\fancybox.png" />
+    <Content Include="fancybox\fancy_close.png" />
+    <Content Include="fancybox\fancy_loading.png" />
+    <Content Include="fancybox\fancy_nav_left.png" />
+    <Content Include="fancybox\fancy_nav_right.png" />
+    <Content Include="fancybox\fancy_shadow_e.png" />
+    <Content Include="fancybox\fancy_shadow_n.png" />
+    <Content Include="fancybox\fancy_shadow_ne.png" />
+    <Content Include="fancybox\fancy_shadow_nw.png" />
+    <Content Include="fancybox\fancy_shadow_s.png" />
+    <Content Include="fancybox\fancy_shadow_se.png" />
+    <Content Include="fancybox\fancy_shadow_sw.png" />
+    <Content Include="fancybox\fancy_shadow_w.png" />
+    <Content Include="fancybox\fancy_title_left.png" />
+    <Content Include="fancybox\fancy_title_main.png" />
+    <Content Include="fancybox\fancy_title_over.png" />
+    <Content Include="fancybox\fancy_title_right.png" />
+    <Content Include="fancybox\jquery-1.4.3.min.js" />
+    <Content Include="fancybox\jquery.easing-1.3.pack.js" />
+    <Content Include="fancybox\jquery.fancybox-1.2.6.css" />
+    <Content Include="fancybox\jquery.fancybox-1.2.6.pack.js" />
+    <Content Include="fancybox\jquery.fancybox-1.3.4.css" />
+    <Content Include="fancybox\jquery.fancybox-1.3.4.js" />
+    <Content Include="fancybox\jquery.fancybox-1.3.4.pack.js" />
+    <Content Include="fancybox\jquery.mousewheel-3.0.4.pack.js" />
+    <Content Include="hakkimizda.html" />
+    <Content Include="images\accepted.png" />
+    <Content Include="images\altsaydam.png" />
+    <Content Include="images\artı.png" />
+    <Content Include="images\balon.png" />
+    <Content Include="images\bjcx03.gif" />
+    <Content Include="images\bw.png" />
+    <Content Include="images\cancel.png" />
+    <Content Include="images\color.png" />
+    <Content Include="images\commentblack32.png" />
+    <Content Include="images\controls.png" />
+    <Content Include="images\emaillogo.png" />
+    <Content Include="images\facelogo.png" />
+    <Content Include="images\facelogorenkli.png" />
+    <Content Include="images\facelogosiyah.png" />
+    <Content Include="images\gear32.png" />
+    <Content Include="images\grsarka.png" />
+    <Content Include="images\kenar.PNG" />
+    <Content Include="images\kenaryatay.png" />
+    <Content Include="images\lightbulb32.png" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\logo2.png" />
+    <Content Include="images\sagkenar.png" />
+    <Content Include="images\sfrarka.jpg" />
+    <Content Include="images\sif.png" />
+    <Content Include="images\sinif.jpg" />
+    <Content Include="images\solkenar.png" />
+    <Content Include="images\twitlogo.png" />
+    <Content Include="images\twitlogorenkli.png" />
+    <Content Include="images\twitlogosiyah.png" />
+    <Content Include="images\up.jpg" />
+    <Content Include="images\up2.jpg" />
+    <Content Include="images\yazi.png" />
+    <Content Include="images\yeni.png" />
+    <Content Include="scripts\jquery-1.9.0.js" />
+    <Content Include="scripts\jquery-1.9.0.min.js" />
+    <Content Include="scripts\jquery-ui-1.10.0.custom.min.js" />
+    <Content Include="scripts\jquery-ui-1.10.1.min.js" />
+    <Content Include="scripts\jquery.colorbox.js" />
+    <Content Include="scripts\jquery.easing.1.3.js" />
+    <Content Include="scripts\jquery.min.js" />
+    <Content Include="scripts\jquery.slimscroll.min.js" />
+    <Content Include="sfrunut.aspx" />
+    <Content Include="Styles\all.css" />
+    <Content Include="Styles\anasayfa.css" />
+    <Content Include="Styles\colorbox.css" />
+    <Content Include="Styles\giris.css" />
+    <Content Include="Styles\ie.css" />
+    <Content Include="Styles\jquery-ui-1.10.0.custom.css" />
+    <Content Include="Styles\Profil.css" />
+    <Content Include="Styles\Admin.css" />
+    <Content Include="Styles\rehber.css" />
+    <Content Include="Styles\reset.css" />
+    <Content Include="Styles\style.css" />
+    <Content Include="UserControls\ucOgrenci.ascx" />
+    <Content Include="UserControls\ucOzelMesaj.ascx" />
+    <Content Include="UserControls\ucPM.ascx" />
+    <Content Include="UserControls\ucSinif.ascx" />
+    <Content Include="UserControls\ucSonYazi.ascx" />
+    <Content Include="UserControls\ucUyeOnay.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="profil.aspx" />
+    <Content Include="mypage.aspx" />
+    <Content Include="giris.aspx" />
+    <Content Include="kayit.aspx" />
+    <Content Include="bildirimler.aspx" />
+    <Content Include="galeri.aspx" />
+    <Content Include="Ayarlar.aspx" />
+    <Content Include="ozelmesajlar.aspx" />
+    <Content Include="SifreDegistirme.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\AdminPanel.Master.cs">
+      <DependentUpon>AdminPanel.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\AdminPanel.Master.designer.cs">
+      <DependentUpon>AdminPanel.Master</DependentUpon>
+    </Compile>
+    <Compile Include="admin\adm_engelle.aspx.cs">
+      <DependentUpon>adm_engelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\adm_engelle.aspx.designer.cs">
+      <DependentUpon>adm_engelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\adm_galeri.aspx.cs">
+      <DependentUpon>adm_galeri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\adm_galeri.aspx.designer.cs">
+      <DependentUpon>adm_galeri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\adm_uyeonaylama.aspx.cs">
+      <DependentUpon>adm_uyeonaylama.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\adm_uyeonaylama.aspx.designer.cs">
+      <DependentUpon>adm_uyeonaylama.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\adm_sikayet.aspx.cs">
+      <DependentUpon>adm_sikayet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\adm_sikayet.aspx.designer.cs">
+      <DependentUpon>adm_sikayet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\adm_siniflar.aspx.cs">
+      <DependentUpon>adm_siniflar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\adm_siniflar.aspx.designer.cs">
+      <DependentUpon>adm_siniflar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\adm_yazikontrol.aspx.cs">
+      <DependentUpon>adm_yazikontrol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\adm_yazikontrol.aspx.designer.cs">
+      <DependentUpon>adm_yazikontrol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="anasayfa.aspx.cs">
+      <DependentUpon>anasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anasayfa.aspx.designer.cs">
+      <DependentUpon>anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Arama.aspx.cs">
+      <DependentUpon>Arama.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Arama.aspx.designer.cs">
+      <DependentUpon>Arama.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cikis.aspx.cs">
+      <DependentUpon>cikis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cikis.aspx.designer.cs">
+      <DependentUpon>cikis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Common.cs" />
+    <Compile Include="Common\FormlarArasi.cs" />
+    <Compile Include="Common\MSSQLDataConnection.cs" />
+    <Compile Include="Common\OtmTamamlama.cs" />
+    <Compile Include="ogrencikontrol.aspx.cs">
+      <DependentUpon>ogrencikontrol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ogrencikontrol.aspx.designer.cs">
+      <DependentUpon>ogrencikontrol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sikayet.aspx.cs">
+      <DependentUpon>sikayet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sikayet.aspx.designer.cs">
+      <DependentUpon>sikayet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sikayeticerik.aspx.cs">
+      <DependentUpon>sikayeticerik.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sikayeticerik.aspx.designer.cs">
+      <DependentUpon>sikayeticerik.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="islemler.aspx.cs">
+      <DependentUpon>islemler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="islemler.aspx.designer.cs">
+      <DependentUpon>islemler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OzelMesaj.aspx.cs">
+      <DependentUpon>OzelMesaj.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OzelMesaj.aspx.designer.cs">
+      <DependentUpon>OzelMesaj.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="snfogr.aspx.cs">
+      <DependentUpon>snfogr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="snfogr.aspx.designer.cs">
+      <DependentUpon>snfogr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="giris.Master.cs">
+      <DependentUpon>giris.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="giris.Master.designer.cs">
+      <DependentUpon>giris.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Profil.Master.cs">
+      <DependentUpon>Profil.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profil.Master.designer.cs">
+      <DependentUpon>Profil.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="profil.aspx.cs">
+      <DependentUpon>profil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="profil.aspx.designer.cs">
+      <DependentUpon>profil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mypage.aspx.cs">
+      <DependentUpon>mypage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mypage.aspx.designer.cs">
+      <DependentUpon>mypage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sfrunut.aspx.cs">
+      <DependentUpon>sfrunut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sfrunut.aspx.designer.cs">
+      <DependentUpon>sfrunut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucOgrenci.ascx.cs">
+      <DependentUpon>ucOgrenci.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucOgrenci.ascx.designer.cs">
+      <DependentUpon>ucOgrenci.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucOzelMesaj.ascx.cs">
+      <DependentUpon>ucOzelMesaj.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucOzelMesaj.ascx.designer.cs">
+      <DependentUpon>ucOzelMesaj.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucPM.ascx.cs">
+      <DependentUpon>ucPM.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucPM.ascx.designer.cs">
+      <DependentUpon>ucPM.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="giris.aspx.cs">
+      <DependentUpon>giris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="giris.aspx.designer.cs">
+      <DependentUpon>giris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kayit.aspx.cs">
+      <DependentUpon>kayit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kayit.aspx.designer.cs">
+      <DependentUpon>kayit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bildirimler.aspx.cs">
+      <DependentUpon>bildirimler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bildirimler.aspx.designer.cs">
+      <DependentUpon>bildirimler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="galeri.aspx.cs">
+      <DependentUpon>galeri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="galeri.aspx.designer.cs">
+      <DependentUpon>galeri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ayarlar.aspx.cs">
+      <DependentUpon>Ayarlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ayarlar.aspx.designer.cs">
+      <DependentUpon>Ayarlar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ozelmesajlar.aspx.cs">
+      <DependentUpon>ozelmesajlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ozelmesajlar.aspx.designer.cs">
+      <DependentUpon>ozelmesajlar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucSinif.ascx.cs">
+      <DependentUpon>ucSinif.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucSinif.ascx.designer.cs">
+      <DependentUpon>ucSinif.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucSonYazi.ascx.cs">
+      <DependentUpon>ucSonYazi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucSonYazi.ascx.designer.cs">
+      <DependentUpon>ucSonYazi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucUyeOnay.ascx.cs">
+      <DependentUpon>ucUyeOnay.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucUyeOnay.ascx.designer.cs">
+      <DependentUpon>ucUyeOnay.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="SifreDegistirme.aspx.cs">
+      <DependentUpon>SifreDegistirme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SifreDegistirme.aspx.designer.cs">
+      <DependentUpon>SifreDegistirme.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Profil.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="giris.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\AdminPanel.Master" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9999</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

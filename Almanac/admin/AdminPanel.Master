@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminPanel.master.cs"
+    Inherits="Almanac.AdminPanel" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<link rel="stylesheet" href="Styles/colorbox.css" type="text/css" />
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/jquery.colorbox.js"></script>
+    <script>
+        var $y = jQuery.noConflict();
+        $y(document).ready(function () {
+            //Examples of how to assign the Colorbox event to elements
+            $y(".group1").colorbox({ rel: 'group1' });
+            $y(".group2").colorbox({ rel: 'group2', transition: "fade" });
+            $y(".group3").colorbox({ rel: 'group3', transition: "none", width: "75%", height: "75%" });
+            $y(".group4").colorbox({ rel: 'group4', slideshow: true });
+        });
+    </script>
+
+<link media="all" rel="stylesheet" type="text/css" href="Styles/all.css" />
+	<script type="text/javascript" src="scripts/jquery.min.1.7.2.js"></script>
+	<script type="text/javascript">	    window.jQuery || document.write('<script type="text/javascript" src="Scripts/jquery-1.7.2.min.js"><\/script>');</script>
+	<%--<script type="text/javascript" src="scripts/jquery.main.js"></script>--%>
+	<!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="Styles/ie.css" /><![endif]-->
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div id="wrapper" style="height:100%;">
+		<div id="content" style="height:100%;">
+			<div class="c1" style="height:100%;">
+				<div class="controls">
+					<strong><a href="#"><img  class="logo" src="images/logo3.png" /></a></strong>
+					<div class="profile-box" style="margin:40px;">
+						<span class="profile">
+							<a href="#" class="section">
+								<img class="image" id="imgPR" runat="server" src="ProfilResimleri/2.jpg" alt="image description" width="26" height="26" />
+								<span class="text-box">
+									Hoşgeldin
+									<strong class="name"><span id="spAdSoyad" runat="server">Ad Soyad</span></strong>
+								</span>
+							</a>
+							<a href="#" class="opener">opener</a>
+						</span>
+						<a href="#" class="btn-on">On</a>
+					</div>
+				</div>
+				  <asp:ContentPlaceHolder ID="icerik" runat="server" />
+			</div>
+		</div>
+		<aside id="sidebar">
+			<asp:ContentPlaceHolder ID="aktiflik" runat="server" />
+			
+			<span class="shadow"></span>
+		</aside>
+	</div>
+    
+    </form>
+</body>
+</html>

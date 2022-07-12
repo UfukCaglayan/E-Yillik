@@ -1,0 +1,122 @@
+﻿html,body,form
+{
+	height:100%;
+}
+
+body 
+{
+    background-color: #051831;font-family:Calibri;font-size:18px;color:White;height:100%;
+}
+
+.geneldiv
+{
+    margin-top:100px;margin-left:100px;
+}
+
+.ustgeneldiv
+{
+    width: 800px; height: 50px;border-bottom:1px solid #b5b4b4
+}
+
+.logodiv
+{
+    float:left;width:230px;
+}
+
+.ustsagdiv
+{
+    float:left;width:569px;height:50px; border-left:1px solid #b5b4b4;
+}
+
+.ustyazi
+{
+    margin-left:50px;margin-top:12px;
+}
+
+.altgeneldiv
+{
+    width:800px;height:550px;
+}
+
+.altsolgeneldiv
+{
+    width:230px;height:550px;border-right:1px solid #b5b4b4;float:left;
+}
+
+.altsolbosluk
+{
+    width:230px;height:50px;
+}
+
+.altsolyazidiv
+{
+    width:230px;
+}
+
+a,alink ,vlink ,link
+{
+    color:White;
+    text-decoration:none;
+}
+a:hover
+{
+    text-decoration:underline;
+}
+
+.alticerikdiv
+{
+    width:519px;height:500px;float:left;margin-top:50px;margin-left:50px;
+}
+
+#rounded-corner
+ {
+ margin:0px;
+ width:780px;
+ text-align: center;
+ border-collapse: collapse;
+ }
+ #rounded-corner thead th.rounded-company
+ {
+ width:100px;
+ background: #60c8f2 url('../images/left.jpg') left top no-repeat;
+ }
+ #rounded-corner thead th.rounded-q4
+ {
+ background: #60c8f2 url('../images/right.jpg') right top no-repeat;
+ }
+ #rounded-corner th
+ {
+ padding: 8px;
+ font-weight: normal;
+ font-size: 13px;
+ color: #039;
+ background: #60c8f2;
+ }
+ #rounded-corner td
+ {
+ padding: 8px;
+ background: #ecf8fd;
+ border-top: 1px solid #fff;
+ color: #669;
+ }
+ #rounded-corner tfoot td.rounded-foot-left
+ {
+ background: #ecf8fd url('../images/botleft.jpg') left bottom no-repeat;
+ }
+ #rounded-corner tfoot td.rounded-foot-right
+ {
+ background: #ecf8fd url('../images/botright.jpg') right bottom no-repeat;
+ }
+ #rounded-corner tbody tr:hover td
+ {
+ background: #F1FCDC;
+ }
+ #rounded-corner tbody td.RowTrue
+ {
+ 	background-color:#AEF578;
+ }
+ #rounded-corner tbody td.RowFalse
+ {
+ 	background-color:#E1FA9B;
+ }
+

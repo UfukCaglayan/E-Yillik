@@ -1,0 +1,261 @@
+﻿.onay, .hata, .bilgi, .ikaz {
+background-repeat: no-repeat;
+background-position: 10px center;
+height: 25px;
+text-transform: uppercase;
+font-size: 11px;
+line-height: 22px;
+margin-bottom: 20px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 50px;
+-webkit-border-radius: 3px;  
+-moz-border-radius: 3px;  
+border-radius: 3px;
+margin-top:50px;
+z-index:99999;
+width:300px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.onay     {
+background-color: #EBF8D6;
+border: 1px solid #A6DD88;
+color: #555555;
+background-image: url(http://img.webme.com/pic/c/catlak-dunya/onayy.png);
+-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset; 
+-moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset;
+box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset
+}
+ 
+.hata      {
+background-color: #FFECE6;
+border: 1px solid #FF936F;
+color: #555555;
+background-image: url(http://img.webme.com/pic/c/catlak-dunya/hata.png);
+-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset; 
+-moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset;
+box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset
+}
+ 
+.bilgi    {
+background-color: #D3EEF1;
+border: 1px solid #81CDD8;
+color: #555555;
+background-image: url(http://img.webme.com/pic/c/catlak-dunya/bilgi.png);
+-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset; 
+-moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset;
+box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset
+}
+ 
+.ikaz   {
+background-color: #FFFBCC;
+border: 1px solid #FFF35E;
+color: #555555;
+background-image: url(http://img.webme.com/pic/c/catlak-dunya/ikaz.png);
+-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset; 
+-moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset;
+box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset
+}
+
+.yazi
+{
+
+}
+
+.kytlink
+{
+	text-decoration:none;
+	color:#6d7179;
+}
+
+.kytlink:hover
+{
+	text-decoration:underline;
+	color:#6d7179;
+}
+
+.ust
+{
+    background: #051831; /* Old browsers */
+background: -moz-linear-gradient(top,  #051831 0%, #051831 48%, #0b1d36 51%, #203046 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#051831), color-stop(48%,#051831), color-stop(51%,#0b1d36), color-stop(100%,#203046)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #051831 0%,#051831 48%,#0b1d36 51%,#203046 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #051831 0%,#051831 48%,#0b1d36 51%,#203046 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #051831 0%,#051831 48%,#0b1d36 51%,#203046 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #051831 0%,#051831 48%,#0b1d36 51%,#203046 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#051831', endColorstr='#203046',GradientType=0 ); /* IE6-9 */   
+    width:100%; height:45px;
+    z-index:99999;
+    position:fixed;
+    top:0px;
+    left:0px;
+    
+}
+
+
+
+.logo
+{
+	margin-left:100px; margin-top:10px; height:25px;float:left;
+}
+
+.logodiv
+{
+	width:1260px;
+}
+
+.ustbosluk
+{
+	width:1034px;float:left;
+}
+
+ #ortalaAlan
+        {
+            float:left;
+            
+           position:absolute;
+            left: 90%;
+            top: 50%;
+          margin-top:-130px;
+          margin-left:-345px;
+        }
+        
+        #footer
+        {
+        float:left;
+           position:absolute;
+            left: 80%;
+            top: 110%;
+          margin-top:-110px;
+          margin-left:-345px;
+        }
+        
+        .giris
+        {
+        	width:332px;
+        	height:194px;
+        	margin-left:35px;
+        	margin-top:150px;
+        }
+        
+        .giris2
+        {
+        	width:332px;
+        	height:195px;
+        	margin-top:150px;
+        }
+        #tc
+        {
+        	font-family:Calibri;
+        	color:#6d7179;
+        margin-top:30px;
+        margin-left:19px;
+        font-size:15px;
+        	
+        	}
+        	
+        	
+        	 #sifre
+        {
+        	font-family:Calibri;
+        	color:#6d7179;
+        margin-top:13px;
+        margin-left:19px;
+        font-size:15px;
+        	
+        	}
+        	#bg 
+        	{
+        	   z-index:-1;
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.butonlar 
+{
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9) );
+	background:-moz-linear-gradient( center top, #f9f9f9 5%, #e9e9e9 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9');
+	background-color:#f9f9f9;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#666666;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:2px 15px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+	
+	margin-top:10px;
+    float:right;
+}.butonlar:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9) );
+	background:-moz-linear-gradient( center top, #e9e9e9 5%, #f9f9f9 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9');
+	background-color:#e9e9e9;
+}.butonlar:active {
+	position:relative;
+	top:1px;
+}
+
+
+ #ortalaAlan2
+        {
+           position:absolute;
+            left: 50%;
+            top: 50%;
+          margin-top:-200px;
+          margin-left:-345px;
+        }
+        
+        .textvb
+        {
+             width:190px; color:#6d7179; height:13px;
+        }
+        
+        .yazilar
+        {
+           
+        	font-family:Calibri;
+        	color:#6d7179;
+        margin-top:30px;
+        margin-left:19px;
+        font-size:15px;
+        	
+       }
+       
+       .sfrunutlink
+       {
+       	text-decoration:none;
+       	font-family:Calibri;
+        	color:White;
+       }
+       
+       .sfrunutlink:hover
+       {
+       	text-decoration:underline;
+       	
+       }

@@ -1,0 +1,477 @@
+﻿.onay, .hata, .bilgi, .ikaz {
+background-repeat: no-repeat;
+background-position: 10px center;
+height: 25px;
+text-transform: uppercase;
+font-size: 11px;
+line-height: 22px;
+margin-bottom: 20px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 50px;
+-webkit-border-radius: 3px;  
+-moz-border-radius: 3px;  
+border-radius: 3px;
+margin-top:50px;
+z-index:99999;
+width:300px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.onay     {
+background-color: #EBF8D6;
+border: 1px solid #A6DD88;
+color: #555555;
+background-image: url(http://img.webme.com/pic/c/catlak-dunya/onayy.png);
+-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset; 
+-moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset;
+box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset
+}
+ 
+.hata      {
+background-color: #FFECE6;
+border: 1px solid #FF936F;
+color: #555555;
+background-image: url(http://img.webme.com/pic/c/catlak-dunya/hata.png);
+-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset; 
+-moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset;
+box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset
+}
+ 
+.bilgi    {
+background-color: #D3EEF1;
+border: 1px solid #81CDD8;
+color: #555555;
+background-image: url(http://img.webme.com/pic/c/catlak-dunya/bilgi.png);
+-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset; 
+-moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset;
+box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset
+}
+ 
+.ikaz   {
+background-color: #FFFBCC;
+border: 1px solid #FFF35E;
+color: #555555;
+background-image: url(http://img.webme.com/pic/c/catlak-dunya/ikaz.png);
+-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset; 
+-moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset;
+box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset
+}
+
+html,form
+{
+	height:100%;
+}
+
+body 
+{
+	margin:0px;
+	height:100%;
+}
+
+.genel
+{
+	width:1260px; margin-left:auto; margin-right:auto;
+	height:100%;
+}
+
+/* Ust Bolum */
+
+.ust
+{
+    background: #051831; /* Old browsers */
+background: -moz-linear-gradient(top,  #051831 0%, #051831 48%, #0b1d36 51%, #203046 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#051831), color-stop(48%,#051831), color-stop(51%,#0b1d36), color-stop(100%,#203046)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #051831 0%,#051831 48%,#0b1d36 51%,#203046 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #051831 0%,#051831 48%,#0b1d36 51%,#203046 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #051831 0%,#051831 48%,#0b1d36 51%,#203046 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #051831 0%,#051831 48%,#0b1d36 51%,#203046 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#051831', endColorstr='#203046',GradientType=0 ); /* IE6-9 */   
+    width:100%; height:45px;
+    z-index:99999;
+    position:fixed;
+    top:0px;
+    left:0px;
+    
+}
+
+.ust2
+{
+    background-color:#274268; 
+    width:100%; height:35px;
+    top:45px;
+    position:fixed;
+    left:0px;
+    z-index:9999;
+}
+
+.logo
+{
+	margin-left:20px; margin-top:5px; height:30px;float:left;
+}
+
+.logodiv
+{
+	width:1260px;
+}
+
+.ustbosluk
+{
+	width:1034px;float:left;
+}
+
+.uss
+{
+	width:1260px;height:20px;margin-left:auto;margin-right:auto;
+}
+
+.isimsoyisim
+{
+	float:left;margin-left:17px;margin-top:5px;color: White; font-family: Calibri; font-size: 15pt;
+}
+
+.textbox
+{
+	float:right;width:200px;margin-top:5px;margin-right:30px;
+}
+
+
+.ustlink
+{
+    float:right;margin-right:25px;margin-top:12px; color:#e8e8e8; cursor:pointer;
+}
+
+.ustlink:hover
+{
+    color:#fff;
+}
+	
+/* Sol Bolum */
+
+.solbolum
+{
+	width:233px; height:100%;float:left;    border-right:1px solid #c5dadd; 
+}
+
+.effect{cursor:pointer;margin:0 8px 10px 0;}
+.box {width:60px;height:60px;font-family:Arial, Helvetica, sans-serif;font-size:20px;color:#000;border:0;text-align:center;float:left;}
+.count{float:right;width:15px;height:15px;text-decoration:none;padding:0px 0 0 0;}
+.blue{color:#0070bf;background:#fff;font-size:8pt;}
+.orange{color:#e8571e;background:#fff; font-size:8pt;}
+.clr{clear:both;}
+.littlebar{width:70px;float:left;}
+.resimkutu{width:200px;height:230px; background-color:#e4e4e4;}
+.msg{background:url(images/msg.gif) no-repeat #fff center 20px;} 
+.noti{background:url(images/noti.gif) no-repeat #fff center 15px;}
+.settings{background:url(images/settings.gif) no-repeat center #fff;} 
+
+.soldiv
+{
+	position:relative;
+	top:95px;
+}
+
+.borderdiv
+{
+    float:left;
+    width: 218px;
+    z-index:-2;
+}
+
+.all
+{
+    width:218px;
+    margin:0 auto; 
+}
+
+.profilresmi
+{
+    cursor:default;
+    margin-left:16px;
+    border:1px solid #c5dadd;
+    width:200px;
+    height:230px;
+    margin-bottom:15px;
+}
+
+.kutular
+{
+     margin-left:-5px;
+    border:1px solid #c5dadd;
+    margin-bottom:0px;
+}
+
+.hakkimizda
+{
+   position:relative;top:15px;margin:0px;
+}
+
+/* Orta Bolum */
+
+.ortabolum
+{
+	width:620px; height:100%;float:left; overflow:auto;
+}
+
+.orta
+{
+    position:relative;
+    top:95px;
+}
+
+.textarea
+{
+    margin-left:15px;width:584px;border:1px solid #b5b4b4;border-bottom:0px; color:#afaeae;height:45px;
+    
+}
+
+.gonder
+{
+    background-color:hsl(0, 0%, 95%);border:1px solid #b5b4b4;Box-Shadow:0px;margin-left:15px;width:588px;height:30px;margin-bottom:15px;
+}
+
+.buttonGonder
+{
+	float:right;margin-top:4px;
+}
+
+.labelSayac
+{
+	float:left;font-size:13pt;margin-left:6px;margin-top:4px;color:rgb(136,145,164);font-family:"Calibri";
+}
+
+.ayarlarustgenel
+{
+    margin-left:15px;
+    width:588px;
+    height:230px;
+    border:1px solid #C5DADD; border-radius:3px;
+    font-family:Calibri;
+}
+
+.ayarlarustsolbolum
+{
+    width:150px;height:230px;float:left;
+}
+
+.ayarlarprofilresmi
+{
+    width:138px;border:1px solid #C5DADD;height:155px; margin-left:10px;margin-top:10px;
+}
+
+.kenaryatay
+{
+    margin-top:10px;
+}
+
+.fotodegismemetin
+{
+    font-family:Calibri;font-size:10px;color:#8891A4;
+}
+
+.ayarlarustsagbolum
+{
+    width:420px;height:200px;float:left;
+}
+
+.kisiselbilgiler
+{
+    border:1px solid #C5DADD;width:100px;font-family:Calibri;font-size:14px;color:#8891A4;position:relative;top:-1px;left:320px;height:17px;
+}
+
+.sagkucukdiv
+{
+    margin-left:25px; margin-bottom:10px;
+}
+
+.adsoyadyazi
+{
+    color:#274268;
+    width:70px;font-size:12px;
+}
+
+.ayarlartextbox
+{
+    width:280px;height:13px;
+}
+
+.dogumcinsiyetmezuniyetkonumyazi
+{
+    color:#274268;
+    width:150px;font-size:12px;float:left;
+}
+
+.dogumtarihidropdiv
+{
+    width:210px;float:left;
+}
+
+.cinsiyetdropdiv
+{
+    float:left;width:50px;
+}
+
+.konumdrop
+{
+    width:123px;   
+}
+
+.ayarlarortadiv
+{
+    margin-left:15px;
+    width:588px;
+    height:250px;
+    border:1px solid #C5DADD; border-radius:3px;
+    font-family:Calibri;margin-top:15px;
+}
+   
+.girisbilgileri
+{
+    border:1px solid #C5DADD;width:100px;font-family:Calibri;font-size:14px;color:#8891A4;position:relative;top:-1px;left:470px;height:17px;
+}
+
+.ortakucukdiv
+{
+    margin-left:25px;margin-bottom:10px;
+}
+
+.ortadivyazi
+{
+    color:#274268;
+    width:150px;font-size:12px;
+}
+
+.ayarlaraltdiv
+{
+    margin-left:15px;
+    width:588px;
+    height:115px;
+    border:1px solid #C5DADD; border-radius:3px;
+    font-family:Calibri;margin-top:15px;
+}
+
+.digerbilgiler
+{
+    border:1px solid #C5DADD;width:100px;font-family:Calibri;font-size:14px;color:#8891A4;position:relative;top:-1px;left:470px;height:17px; 
+}
+
+.altbolumdiv
+{
+    width:580px;height:50px;margin-left:25px;
+}
+
+.altbolumlogo
+{
+    width:40px;height:40px;float:left;margin-right:15px;position:relative;top:-8px;
+}
+
+.ayarlarprofilresim
+{
+     width:128px;height:145px;margin-left:5px;margin-top:5px;
+}
+
+.ayarlarfileupload
+{
+    visibility:hidden;   
+}
+
+/* Sağ Bolum */
+
+.sagbolum
+{
+    border-left:1px solid #c5dadd;
+	width:403px; height:100%; float:left;
+}
+
+.sag
+{
+    position:relative;
+	top:95px;
+}
+
+.unutulmayan
+{
+    margin-left:15px;
+    width:364px;
+	height:303px;
+	background-color:#e5e5e5;
+}
+
+.untust
+{
+	background-color:#274268;
+	height:35px;
+	color:White;
+	font-size:13pt; font-family:Calibri
+	
+}
+
+.untusttext
+{
+    position:relative; top:6px; margin-left:10px;
+}
+
+.unutulmayanlarresim
+{
+    margin-top: 10px; margin-left: 10px; margin-right: -6px;width:167px;height:119px;
+}
+
+.unutulmayanlarresimduzelt
+{
+    margin-top:5px;
+}
+
+.onadayaz
+{
+    margin-left:10px;margin-top:10px;width:166.5px;border:1px solid #C5DADD;height:65px;float:left;
+}
+
+.onadayazresim
+{
+    width:60px;height:65px;float:left;
+}
+
+.onadayaztext
+{
+    float: left; 
+    margin-top:10px;
+    width:106px;
+}
+
+
+.adizayn, alink ,vlink ,link
+{
+	color:#8891A4;
+	text-decoration:none;
+	
+}
+
+.adizayn:hover
+{
+	color:#8891A4;
+	text-decoration:underline;
+}
+
+.galeridiv
+{
+	width:590px;margin-left:15px;
+}
+
+.galeriresim
+{ 
+	margin-bottom:8px;
+	margin-right:9px;
+	width:186px;
+	height:150px;
+	border:1px solid #C5DADD;
+}
+.galeriresimsag
+{ 
+	margin-bottom:8px;
+	width:186px;
+	height:150px;
+	border:1px solid #C5DADD;
+}
+

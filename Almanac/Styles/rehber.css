@@ -1,0 +1,107 @@
+﻿.genel
+{
+    padding-top:50px;
+    margin:0 auto;
+width:900px;
+}
+
+.menu1
+{
+    width: 500px; height: 50px; background-color: #eff7fa; border: 1px solid #d9ebf2; border-bottom:0px; margin-top:8px; border-radius:5px 5px 0px 0px;
+}
+
+.menu2
+{
+    display: none; color:#000018; padding-left:10px; width: 490px;border: 1px solid #d9ebf2; border-top:0px;background-color: #eff7fa;border-radius:0px 0px 5px 5px;
+}
+
+.byazi
+{
+    font-size:25px; margin-left:10px; margin-top:10px;
+}
+
+.linkler
+{
+    text-decoration:none; color:#000018;
+}
+/* Ust Bolum */
+
+.ust
+{
+    background: #051831; /* Old browsers */
+background: -moz-linear-gradient(top,  #051831 0%, #051831 48%, #0b1d36 51%, #203046 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#051831), color-stop(48%,#051831), color-stop(51%,#0b1d36), color-stop(100%,#203046)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #051831 0%,#051831 48%,#0b1d36 51%,#203046 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #051831 0%,#051831 48%,#0b1d36 51%,#203046 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #051831 0%,#051831 48%,#0b1d36 51%,#203046 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #051831 0%,#051831 48%,#0b1d36 51%,#203046 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#051831', endColorstr='#203046',GradientType=0 ); /* IE6-9 */   
+    width:100%; height:45px;
+    z-index:99999;
+    position:fixed;
+    top:0px;
+    left:0px;
+    
+}
+
+.ustlink
+{
+    float:right;margin-right:25px;margin-top:12px; color:#e8e8e8; cursor:pointer;
+}
+
+.ustlink:hover
+{
+    color:#fff;
+}
+
+.ust2
+{
+    background-color:#274268; 
+    width:100%; height:35px;
+    top:45px;
+    position:fixed;
+    left:0px;
+    z-index:9999;
+}
+
+.logo
+{
+	margin-left:20px; margin-top:5px; height:30px;float:left;
+}
+
+.logodiv
+{
+	width:1260px;
+}
+
+.ustbosluk
+{
+	width:500px;float:left;
+}
+
+.uss
+{
+	width:1260px;height:20px;margin-left:auto;margin-right:auto;
+}
+
+.isimsoyisim
+{
+	float:left;margin-left:17px;margin-top:5px;color: White; font-family: Calibri; font-size: 15pt;
+}
+
+.textbox
+{
+	float:right;width:200px;margin-top:5px;margin-right:30px;
+}
+
+/* Sol Bolum */
+.solbolum
+{
+	width:400px; height:100%;float:left;  
+}
+
+.soldiv
+{
+	position:relative;
+	top:95px;
+}
