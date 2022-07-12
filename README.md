@@ -1,4 +1,4 @@
-#E Yıllık
+# E Yıllık
 
 Projenin resimleri aşağıda yer almaktadır.
 
