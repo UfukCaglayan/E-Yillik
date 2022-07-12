@@ -1,4 +1,4 @@
-# Okullarda düzenlenen kitap şeklinde olan yıllıkları internet ortamına taşımış olduk. Siteye kayıt olan her öğrencinin profilinin olacağı, arkadaşlarının
+Okullarda düzenlenen kitap şeklinde olan yıllıkları internet ortamına taşımış olduk. Siteye kayıt olan her öğrencinin profilinin olacağı, arkadaşlarının
 profillerini ziyaret ederek yorumlar yapabileceği, birlikte çekilmiş olan fotoğrafların listeleneceği bir sistem geliştirdik. Sınıf ve mezuniyet yıllarına göre
 öğrenciler takip edilebilecek hale geldi.
 
