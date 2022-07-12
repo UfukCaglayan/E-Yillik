@@ -1,6 +1,6 @@
-Okullarda düzenlenen kitap şeklinde olan yıllıkları internet ortamına taşımış olduk. Siteye kayıt olan her öğrencinin profilinin olacağı, arkadaşlarının
-profillerini ziyaret ederek yorumlar yapabileceği, birlikte çekilmiş olan fotoğrafların listeleneceği bir sistem geliştirdik. Sınıf ve mezuniyet yıllarına göre
-öğrenciler takip edilebilecek hale geldi.
+#E Yıllık
+
+Projenin resimleri aşağıda yer almaktadır.
 
 ![anasayfa](https://user-images.githubusercontent.com/22642119/178488447-0253714b-abce-4d86-92b2-69db0dd77267.png)
 
